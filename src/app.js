@@ -17,7 +17,7 @@ function section(data){
         contenidoCard.innerHTML += `
         <section class="container__card">
         <img class="container__img" src="${valor.url_image}" alt="">
-            <h3 class="container__title">${valor.name}</h3>
+            <p class="container__title">${valor.name}</p>
             <hr class="container__hr">
             <div class="detalles">
                 <p class="detalles__price">$${valor.price}</p>

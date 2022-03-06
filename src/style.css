@@ -1,8 +1,8 @@
 :root{
     --font-primary : 'Roboto', sans-serif;
     --color-bg: rgb(241, 241, 241);
-    --font-size-title: 25px;
-    --font-weight-title: 500;
+    --font-size-title: 15px;
+    --font-weight-title: 400;
 
     --font-size-detail: 20px;
     --font-weight-detail: 300;
@@ -59,7 +59,7 @@ body{
 
 .container__card{
     width: 80%;
-    height: 500px;
+    height: 410px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -117,12 +117,12 @@ body{
         width: 100%;
         padding: 25px;
         flex-direction: row;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
     .container__card{
         width: 300px;
-        height: 500px;
         justify-content: center;
         align-items: stretch;
         text-align: center;
